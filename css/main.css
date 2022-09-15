@@ -1,0 +1,124 @@
+nav {
+  background-color: #209052;
+}
+nav div div img {
+  width: 70px;
+}
+nav div div .titulo {
+  font-family: "Rubik Distressed", cursive;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+p, h2, a {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+body {
+  background-color: #93d1ba;
+}
+
+.mainIndex {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.mainIndex .sliderPresentacion {
+  width: 100%;
+  height: 500px;
+}
+.mainIndex .sliderPresentacion div button .btnSlider {
+  background-color: #0F0E0E !important;
+}
+.mainIndex .section2Index {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.mainIndex .section2Index h2 {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.mainIndex .section2Index p {
+  margin-left: 10px;
+}
+.mainIndex .section3Index {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.mainIndex .section3Index h2 {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.mainIndex .section3Index p {
+  margin-left: 10px;
+}
+
+footer {
+  background: #3CB371;
+  display: flex;
+  flex-direction: column;
+}
+footer div {
+  display: flex;
+  margin-left: 10px;
+}
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+footer div div {
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+}
+footer div div div {
+  margin-left: 10px;
+  display: inline-block;
+  height: 150px;
+  overflow: hidden;
+}
+footer div div div ul li {
+  margin-top: 20px;
+}
+footer div div div ul i {
+  margin-right: 10px;
+}
+footer div div div ul a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  background-image: linear-gradient(black, black);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+footer div div div ul a:hover {
+  color: black;
+  font-weight: 600;
+  background-size: 100% 2px;
+}
+footer div div div {
+  margin-left: 10px;
+  display: inline-block;
+  height: 150px;
+  overflow: hidden;
+}
+footer div div {
+  width: 500px;
+  margin-right: 15px;
+}
+footer h6 {
+  text-align: center;
+  font-size: 0.8em;
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=main.css.map */
