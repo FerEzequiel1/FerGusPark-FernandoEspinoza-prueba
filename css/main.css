@@ -51,7 +51,7 @@ body {
 .mainIndex .section2Index {
   margin-bottom: 15px;
 }
-.mainIndex .section2Index h2 {
+.mainIndex .section2Index h1 {
   margin-bottom: 5px;
   margin-left: 10px;
 }
@@ -70,6 +70,7 @@ body {
 .mainIndex .section3Index h2 {
   margin-bottom: 5px;
   margin-left: 10px;
+  font-size: 2.7em;
 }
 .mainIndex .section3Index p {
   margin-left: 10px;
