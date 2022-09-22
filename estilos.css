@@ -1,7 +1,6 @@
 
                                      /* ESTILOS DEL INDEX //
                                     //                    // */
-
 @keyframes sliderPodaAnimation {
             0% {background-image: url(poda/poda1.jpg )}
             33% {background-image: url(poda/poda2.jpg)}
@@ -23,6 +22,7 @@
                          animation-duration: 15s;
                          animation-iteration-count: infinite; 
                                                 }
+
                               
 
 @keyframes sliderPiscinasAnimation {
@@ -345,11 +345,11 @@
 
                               
 
+                                /*Trabajos///////////*/
 
+@media (max-width: 950px){  
 
-@media (max-width: 950px){  /*Trabajos///////////*/
-
-.imgTrabajoConteiner {
+/*.imgTrabajoConteiner {
         grid-template-rows: repeat(6, 250px);
         grid-template-columns: repeat(10, 1fr);
         
@@ -406,13 +406,13 @@
 .imgTrabajoConteiner img:nth-child(11){
     grid-row: 3/4;
     grid-column: 5/9;
-}
+}*/
 
 
 
                              /*///////// ESTILOS DE FOOTER ///*/
 
-                             .contacto {
+                       /*      .contacto {
                                 margin: auto;
                                               }
                     .flexContainer {
@@ -425,15 +425,10 @@
                             width: 100%; 
                                           }
 
-                                        }
+                                        }*/
 
 
-@media (max-width: 883px){
-                           .logoConteiner {margin: auto;}
-                           .nav  {margin: auto;}
 
-                           
-}
 
 @media (max-width: 800px) {    
 
@@ -444,7 +439,7 @@
 
 
 
-.imgTrabajoConteiner {
+/*.imgTrabajoConteiner {
                         grid-template-rows: repeat(5, 250px);
                         grid-template-columns: repeat(10, 1fr);
                                                                 }
@@ -502,12 +497,12 @@
 .imgTrabajoConteiner img:nth-child(11){
     grid-row: 2/3;
     grid-column: 5/11;
-}
+}*/
 
                                 /*/// FIN DE  ESTILOS TRABAJOS  ///////////*/
 
 
-                              /*///  ESTILOS HERRAMIENTAS  ///////////*/
+                              /*///  ESTILOS HERRAMIENTAS  ///////////
  .imgHerramientasDePodaConteiner  { 
                                      grid-template-rows: repeat(3, 250px);
                                      grid-template-columns: repeat(8, 1fr);
@@ -583,7 +578,7 @@
     grid-row: 2/3;
     grid-column: 5/7;
 }
-    
+    */
 
 }
 
@@ -607,7 +602,7 @@
                                  /*FIN DE ESTILOS INDEX////////*/
 
 
-                                /*ESTILOS NOSOTROS/////////*/
+                                /*ESTILOS NOSOTROS/////////
 
     .imgNosotrosConteiner{
                             grid-template-rows: repeat(2, 300PX); 
@@ -624,7 +619,7 @@
                                       grid-row: 2/3;
                                      
                                                      }
-.sobreNosotrosSection2 {margin-top: 120px;}
+.sobreNosotrosSection2 {margin-top: 120px;}*/
 
 
 
@@ -639,7 +634,7 @@
 
 
 
-.imgTrabajoConteiner {
+/*.imgTrabajoConteiner {
                       grid-template-rows: repeat(5, 250px);
                       grid-template-columns: repeat(10, 1fr);
         
@@ -700,7 +695,7 @@
     grid-column: 9/11;
     object-fit: cover;
 }
-
+*/
                           
                              /*FIN DE ESTILOS TRABAJOS////////*/
 
@@ -716,7 +711,7 @@
     /*///  ESTILOS TRABAJOS  ///////////*/
 
 
-.imgTrabajoConteiner {
+/*.imgTrabajoConteiner {
         grid-template-rows: repeat(8, 250px);
         grid-template-columns: repeat(4,1fr);
         padding: 0px;
@@ -778,7 +773,7 @@
     grid-row: 3/4;
     grid-column: 3/5;
     object-fit: cover;
-}
+}*/
 
 
 
@@ -786,7 +781,7 @@
                         /*/// FIN DE ESTILOS TRABAJOS  ///////////*/
 
 
-                         /*///  ESTILOS HERRAMIENTAS  ///////////*/
+                         /*///  ESTILOS HERRAMIENTAS  ///////////
 .imgHerramientasDePodaConteiner  { 
                                      grid-template-rows: repeat(4, 250px);
                                      grid-template-columns: repeat(8, 1fr);
@@ -860,7 +855,7 @@
     grid-row: 3/4;
     grid-column: 1/3;
 }
-
+*/
                         /*/// FIN DE ESTILOS HERRAMIENTAS  ///////////*/
 
 }
@@ -868,15 +863,9 @@
 
 
 
-@media (max-width: 481px){ .nav{ flex-direction: column; 
-                            }
-                            .divFormulario { 
-                                             display: flex;
-                                             flex-direction: column; 
-                                             justify-content: center;
-                                                                      
-                                            }
-.cuadradito{ width: 100%; }
+@media (max-width: 481px){ 
+                           
+/*.cuadradito{ width: 100%; }
 .text {
         width: 100%;
         justify-content: center;
@@ -886,7 +875,7 @@
 
 }
 
-@media (max-width: 450px) { .flexContainer{
+/*@media (max-width: 450px) { .flexContainer{
                                            margin-top: 8px;
                                                             }
 
@@ -905,4 +894,5 @@
                                                margin-top: 0;
                                                margin-bottom: 8px;
                                                                    }
-ul {text-align: center;}}
+ul {text-align: center;}}*/
+                                                                }}

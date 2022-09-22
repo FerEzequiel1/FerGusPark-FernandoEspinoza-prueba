@@ -1,9 +1,8 @@
-nav {background-color: $mainColor;
-    div{
+nav {background-color: map-get($map:$paleta, $key:mainColor);
+     div{
          div{
-          img{width: 70px;}
-          .titulo{font-family:$mainFont
-           }
+              img{width: 70px;}
+             .titulo{font-family:$mainFont }
             }
-    }
-}
+        }
+   }   

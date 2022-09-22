@@ -1,15 +1,13 @@
-footer  {
-          background: $tertiaryColor; 
-          display: flex;
-          flex-direction: column; 
+footer{ @include flex(column,flex-start,nowrap)}
+footer {
+          background: map-get($map:$paleta, $key:tertiaryColor ); 
           .contacto {
                       display: flex;
                       margin-left: 10px;
                     }  
+         .flexContainer { @include flex(row,space-between,nowrap)}  
          .flexContainer{
-                         display: flex;
-                         justify-content: space-between;
-                        .flexContainerIconos{
+                         .flexContainerIconos{ 
                                               display: flex;
                                               justify-content: space-between;
                                               width: 440px;
@@ -55,6 +53,61 @@ footer  {
                 font-size: $textSm;
                 font-family: $secondaryFont;
                                     }
+       }
 
-  }           
-     
+           @media (max-width: 950px)
+                                    { footer{
+                                     
+                                             .contacto {
+                                                          margin: auto;
+                                                       }
+                                             .flexContainer  {
+                                                               flex-direction: column;
+                                                               .flexContainerIconos  { 
+                                                                                       margin: auto; 
+                                                                                      }
+                                                               .mapa {
+                                                                        width: 100%; 
+                                                                       }
+                                                              }
+                                             }                             
+                                    }
+            @media (max-width: 450px) { 
+                                      
+              footer{
+                       .flexContainer{
+                                       margin-top: 8px;
+                                       .flexContainerIconos {                                                              flex-direction: column;
+                                                              justify-content: center;
+                                                              width: 100% ; 
+                                                              height: 220px;
+                                                              .iconosContainer { margin-left: 0;
+                                                                                 margin-top: 0;
+                                                                                 ul {text-align: center;
+                                                                                      .li-footer {
+                                                                                                   margin-top: 0;
+                                                                                                   margin-bottom: 8px;
+                                                                                                 }
+                                                                                 }
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                }
+                                                              .iconosContainer2 {
+                                                                                 margin-left: 0;
+                                                                                 margin-top: 0;
+                                                                                   ul {text-align: center;
+                                                                                        .li-footer {
+                                                                                                      margin-top: 0;
+                                                                                                      margin-bottom: 8px;
+                                                                                                   }
+                                                                                       }
+                                                                                }
+                                                             }
+                                    }
+                      }
+           
+                                                            }
+                                    
+    
