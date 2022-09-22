@@ -84,9 +84,10 @@ main .sobreNosotrosSection1 {
 main .sobreNosotrosSection1 {
   margin-top: 15px;
 }
-main .sobreNosotrosSection1 .sobreNosotrosSection1__h2 {
+main .sobreNosotrosSection1 .sobreNosotrosSection1__h1 {
   margin-bottom: 5px;
   margin-left: 10px;
+  font-size: 1.9em;
 }
 main .sobreNosotrosSection1 p {
   margin-left: 10px;
@@ -160,8 +161,9 @@ main .sobreNosotrosSection2 .divSection2 .imgSobreNosotros3 {
 main .herramientasSecction1 {
   margin-top: 10px;
 }
-main .herramientasSecction1 h2 {
+main .herramientasSecction1 h1 {
   margin-left: 15px;
+  font-size: 1.9em;
 }
 main .herramientasSecction1 p {
   margin-left: 15px;
@@ -421,9 +423,10 @@ main section .imgHerramientasDePiscinasConteiner img:nth-child(8) {
 main .trabajoSection {
   margin-top: 30px;
 }
-main .trabajoSection .h2Trabajo {
+main .trabajoSection .h1Trabajo {
   margin-bottom: 30px;
   text-align: center;
+  font-size: 1.9em;
 }
 main .trabajoSection .imgTrabajoConteiner {
   padding: 10px;
@@ -728,6 +731,9 @@ main .divFormulario {
   width: 100%;
   align-items: center;
   margin-bottom: 15px;
+}
+main .divFormulario div h1 {
+  font-size: 1.9em;
 }
 main .divFormulario .formulario {
   width: 80%;

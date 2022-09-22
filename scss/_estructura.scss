@@ -48,9 +48,10 @@ main{
     .sobreNosotrosSection1 { @include flex(row,flex-start,wrap)}
     .sobreNosotrosSection1{ 
                               margin-top: 15px;
-                             .sobreNosotrosSection1__h2{ 
+                             .sobreNosotrosSection1__h1{ 
                                                          margin-bottom: 5px; 
                                                          margin-left: 10px;
+                                                         font-size: $textLg;
                                                       }
                              p{margin-left: 10px;
                               }
@@ -114,7 +115,9 @@ main{
 //ESTILOS HERRAMIENTA
 main{
        .herramientasSecction1  {   margin-top: 10px;
-                                  h2{margin-left: 15px;}
+                                  h1{margin-left: 15px;
+                                     font-size: $textLg;
+                                    }
                                   p { margin-left: 15px;} 
     
                                 }   
@@ -377,9 +380,10 @@ main{
 
         .trabajoSection{    
                            margin-top: 30px;
-                          .h2Trabajo{
+                          .h1Trabajo{
                                        margin-bottom: 30px;
                                        text-align: center;
+                                       font-size: $textLg;
                                     }
                           .imgTrabajoConteiner{
                                                  padding: 10px;
@@ -674,6 +678,9 @@ main{   .divFormulario { @include flex(column,flex-start,nowrap)}
                          width: 100%;
                          align-items: center;
                          margin-bottom: 15px;
+                            div{
+                                  h1{font-size: $textLg;}
+                                }
                            .formulario{ width: 80%;
                                           .label{ 
                                                   font-size: $textMd; 
