@@ -1,6 +1,7 @@
 *   {
     list-style: none;
     text-decoration: none;
+    img {object-fit: cover;}
     }
 p,h2,a  {font-family: $secondaryFont;}
 p {font-size: $textMd;}
@@ -136,6 +137,7 @@ main{
                                                                   .imgHerramientasDePoda {
                                                                                              width: 100%;
                                                                                              height: 100%;
+                                                                                             object-fit: cover;
                                                                                           }
                                                                
 
@@ -637,4 +639,4 @@ main{   .divFormulario { @include flex(column,flex-start,nowrap)}
     }    
 
 
-    
+    *{img {object-fit: cover;}}
