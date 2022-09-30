@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 nav {
   background-color: #209052;
 }
@@ -40,7 +40,6 @@ body {
   width: 100%;
   height: 500px;
 }
-
 .mainIndex .sliderPresentacion div button .btnSlider {
   background-color: #0F0E0E !important;
 }
@@ -189,6 +188,8 @@ main .herramientasSecction2 .imgHerramientasDePodaConteiner {
 main .herramientasSecction2 .imgHerramientasDePodaConteiner .imgHerramientasDePoda {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 main .herramientasSecction2 .imgHerramientasDePodaConteiner img:first-child {
   grid-column: 1/4;
@@ -443,6 +444,8 @@ main .trabajoSection .imgTrabajoConteiner {
 main .trabajoSection .imgTrabajoConteiner .imgTrabajos {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 main .trabajoSection .imgTrabajoConteiner img:first-child {
   grid-row: 1/2;
@@ -651,6 +654,9 @@ main .trabajoSection .imgTrabajoConteiner img:nth-child(12) {
     grid-row: 11/12;
     grid-column: 1/2;
   }
+}
+main .galeriaOtoño h2 a {
+  color: #FF4500;
 }
 
 main .divFormulario {
