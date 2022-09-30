@@ -58,6 +58,69 @@
             100% {background-image: url(presentacion/presentacion3.jpg)}
 
 }
-
                                 
 }
+/*ESTILOS DE LA PÁGINA 404*/
+.body404{ 
+          background-image: url(error/error.webp) ;
+          background-repeat: no-repeat;
+          background-size:cover ;
+          width: 100vw;
+          height: 100vh;
+          margin: 0;
+          padding: 0;
+        }
+     
+.opaco{background-color: black;
+       position: relative;
+       opacity: 0.4;
+       width: 100vw;
+       height: 100vh;}
+.error {
+           position: absolute;
+           color: #fff;
+           left: 10em;
+           top:2em;
+           font-size: 3em;
+           display: flex;
+           flex-wrap: wrap;
+
+          }
+.contenido{ 
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+            color: #fff;
+            left: 23em;
+            top: 18em;
+            font-size: 1.5em;
+
+          }
+          a{ color: #fff;
+       }
+@media (max-width: 994px)
+       {
+             .error {left: 2em;}   
+             .contenido {
+                         left: 5em;
+                         top: 14em;
+                       } 
+        }
+@media (max-width: 610px)
+       {
+            .error {
+                      left: 2em;
+                      font-size: 2em;
+                      top: 4em;
+                     left: 3.5em;
+                    }   
+            .contenido {
+                         left: 1em;
+                         top: 12em;
+                        } 
+        }
+
+@media (max-width: 456px)
+       {
+        .error {left: 1em;} 
+       }
