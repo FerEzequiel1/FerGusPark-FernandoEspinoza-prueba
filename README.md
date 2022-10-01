@@ -18,17 +18,17 @@ Puede visualizar el proyecto [aquí](https://ferguspark.netlify.app/index.html).
 
 # Construido con
 
-*HTML5
+* HTML5
 
-*Sass/Css
+* Sass/Css
 
-*Bootstrap
+* Bootstrap
 
-#Versionado
+# Versionado
 [GitHub](https://github.com/)
 
-#Autor
+# Autor
 Desarrollado por Fernando Espinoza
 
-#404
+# 404
 La página 404 esta en la pestaña trabajos/otoño 2022
