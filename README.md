@@ -7,7 +7,9 @@ El proyecto web comenzó con un buen diseño a partir de los wiframes los cuales
 
 # Deploy
 
-Puede visualizar el proyecto [aquí](https://ferguspark.netlify.app/index.html).
+* Puede visualizar el proyecto [aquí](https://ferguspark.netlify.app/index.html).
+* [Pages](https://ferezequiel1.github.io/FerGusPark-FernandoEspinoza-prueba/) de Github.
+* [Repositorio](https://github.com/FerEzequiel1/FerGusPark-FernandoEspinoza-prueba) de Github.
 
 # Objetivo
 
